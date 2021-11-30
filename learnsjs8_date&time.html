@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDATE & TIME</title>
+</head>
+<body>
+    <div class="container">
+        this is a container
+    </div>
+    <script>
+        console.log("DATE AND TIME");
+
+        // let now=new Date();
+        // console.log(now)
+
+        // let newDate = new Date("2019-09-20");
+        // console.log(newDate);
+        
+        // let newDate = new Date(year,month,day,hours,minutes,seconds,milliseconds);
+        let newDate = new Date(2020,2,20,2,20,20,2);
+        console.log(newDate);
+
+        let yr = newDate.getFullYear();
+        console.log(yr);
+        let mt = newDate.getMonth();
+        console.log(mt);
+        let day = newDate.getDate();
+        console.log(day);
+        let hr = newDate.getHours();
+        console.log(hr);
+
+    </script>
+</body>
+</html>

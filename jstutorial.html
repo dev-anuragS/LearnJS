@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            height:100vh;
+            /* width:50vw; */
+        }
+        button{
+            padding:10px;
+            border:none;
+            border:2px solid white;
+            border-radius:0px 10px 5px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+    <button onclick="check()">CLICK ME</button>
+<body>
+    <script>
+        // alert("This site is not Secure.Do you Still want to Continue?");
+        // let fname=prompt("ENTER YOUR NAME");
+        // document.write("WELCOME TO MY WEB PAGE "+fname);
+        function check(){
+            let date=new Date();
+            alert(`THE DATE NOW IS : ${date}`);
+        }
+    </script>
+</body>
+</html>
